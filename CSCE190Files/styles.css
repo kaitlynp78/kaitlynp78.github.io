@@ -2,16 +2,19 @@ body{
   background: [yellow];
   font-family: Ariel;
 }
+
 h1{
   color: [blue];
   text-align: center;
 }
+
 .assign img{
   display: flex;
   padding: 10px;
   margin: 10px;
   background: [orange];
 }
+
 .assign img{
   width: 200px;
   padding: 10px;
