@@ -3,12 +3,12 @@ body {
   font-family: Courier New, Lucida Console, Monaco;
 }
 h1 {
-  color: #43D9A2;
+  color: #219769;
   text-align: center;
 }
 /*add comments in CSS by using ctrl and then /*/
 .assign {
-  background-color: #003300;
+  background-color: #219769;
   margin: 10px;
   padding: 10px;
   display: flex;
