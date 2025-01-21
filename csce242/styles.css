@@ -1,0 +1,51 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background: Cadetblue;
+}
+
+#content{
+    background: #A793C2;
+    color: darkslategray;
+    width: 70%;
+    margin: auto; /* centers dix */
+    padding: 5px;
+    border: 2px black;
+    border-radius: 5px;
+}
+
+header, footer{
+    background: #C0E09A;
+    padding: 5px;
+    color: darkslategray;
+}
+
+#main-list h2{
+    color: darkslategray;
+}
+
+#main-list ul{
+    padding-left: 0;
+}
+
+#main-list li{
+    display: inline-block;
+}
+
+#main-list a{
+    color: darkcyan;
+    text-decoration: none;
+    border-bottom: 1px solid transparent
+}
+
+#main-list a:hover{
+    color: darkcyan;
+    border-bottom: darkcyan;
+}
+
+header h1{
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
