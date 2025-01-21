@@ -1,21 +1,21 @@
 body{
-    background: #EB423F;
-    font-family: Arial, Helvetica, sans-serif;
+    background: darkgreen;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #content{
-    background:#EB603F;
+    background: darkolivegreen;
+    color: black;
     width: 70%;
     margin: auto;
     padding: 5px;
-    border: 1px black;
     border-radius: 5px;
 }
 
 header, footer{
-    background:#EB603F;
+    background: darkolivegreen;
     padding: 5px;
-    color:#EBB33F;
+    color: black;
 }
 
 #main-nav ul{
@@ -28,14 +28,14 @@ header, footer{
 }
 
 #main-nav a{
-    color:#EB9C3F;
+    color: darkseagreen;
     text-decoration: none; 
     border-bottom: 1px solid transparent;
 }
 
 #main-nav a:hover{
-    color: #EB9C3F;
-    border-bottom: 1px solid #EB9C3F;
+    color: cadetblue;
+    border-bottom: 1px solid darkseagreen;
 }
 
 header h1{
