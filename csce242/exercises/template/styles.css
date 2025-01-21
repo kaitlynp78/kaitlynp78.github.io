@@ -1,0 +1,51 @@
+/* Structure */
+body{
+    background:url(images/sunset.webp);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content{
+    background:seagreen;
+    width: 70%;
+    margin: auto; /* centers dix */
+    padding: 5px;
+    border: 1px solid darkcyan;
+    border-radius: 5px; /* curve border */
+    box-shadow: 5px 5px black
+}
+/* . is for class name (more than once) and # is for id name (once) */
+header, footer{
+    background:darkseagreen;
+    padding: 5px;
+    color:white;
+}
+
+/* Navigation */
+#main-nav ul{
+    padding-left: 0;
+}
+
+#main-nav li{
+    list-style-type: none; /* removes bullet points */
+    display: inline-block;
+}
+
+#main-nav a{
+    color:white;
+    text-decoration: none; /* removes underline from links */
+    border-bottom: 1px solid transparent;
+}
+
+#main-nav a:hover{
+    color: darkcyan;
+    border-bottom: 1px solid darkcyan;
+}
+
+/* Typography */
+header h1{
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
