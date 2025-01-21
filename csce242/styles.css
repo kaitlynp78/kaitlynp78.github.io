@@ -39,7 +39,7 @@ header, footer{
 
 #main-list a:hover{
     color: darkcyan;
-    border-bottom: darkcyan;
+    border-bottom: 1px solid darkcyan;
 }
 
 header h1{
