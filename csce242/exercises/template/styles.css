@@ -7,7 +7,7 @@ body{
 #content{
     background:seagreen;
     width: 70%;
-    margin: auto; /* centers dix */
+    margin: auto; /* centers div */
     padding: 5px;
     border: 1px solid darkcyan;
     border-radius: 5px; /* curve border */
