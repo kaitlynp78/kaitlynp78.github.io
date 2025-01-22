@@ -23,12 +23,12 @@ header, footer{
     color: darkslategray;
 }
 
-#main-list ul{
-    padding-left: 0;
+#main-list li{
+    list-style-type: none;
 }
 
-#main-list li{
-    display: inline-block;
+#main-list ul{
+    padding-left: 0;
 }
 
 #main-list a{
