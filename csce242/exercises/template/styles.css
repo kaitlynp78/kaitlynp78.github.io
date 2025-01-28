@@ -13,6 +13,7 @@ body{
     border-radius: 5px; /* curve border */
     box-shadow: 5px 5px black
 }
+
 /* . is for class name (more than once) and # is for id name (once) */
 header, footer{
     background:darkseagreen;

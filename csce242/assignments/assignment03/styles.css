@@ -126,7 +126,7 @@ footer p{
     text-align: center;
 }
 
-.title1 h3{
+.title1, .title2, .title3, .title4 h3{
     text-align: center;
 }
 
@@ -154,7 +154,7 @@ footer p{
         gap: 20px;
     }
 
-    .idea2{
+    #idea2{
         display: flex;
         align-items: flex-start;
         gap: 20px;
@@ -174,34 +174,29 @@ footer p{
     #leftimg{
         max-width: 40%;
         height: auto;
+        margin: 0;
     }
 
     #bottom-content{
         display: flex;
-        flex: 1;
         margin-top: 10px;
-        justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         height: auto;
         box-sizing: border-box;
+        flex-wrap: wrap;
+    }
+
+    .title1, .title2, .title3, .title4{
+        display: flex;
+        justify-content: flex-start;
+        max-width: 25%;
     }
 
     #content-list{
         flex: 2;
         text-align: left;
-    }
-
-    .title2, .title4{
         display: flex;
-    }
-
-    .title1, .title2{
-        display: grid;
-        margin: auto;
-    }
-
-    .title3, .title4{
-        display: grid;
-        margin: auto;
+        flex-direction: row;
+        justify-content: center;
     }
 }
