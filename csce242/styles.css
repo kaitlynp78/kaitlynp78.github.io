@@ -59,7 +59,7 @@ footer p{
 .assignment img{
     border: 2px solid black;
     align-items: center;
-    max-width: 100%;
+    max-width: 15%;
     height: auto;
     margin-bottom: 10px;
 }
