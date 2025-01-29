@@ -73,5 +73,6 @@ footer p{
     .assignment{
         margin: 20px;
         max-width: 30%;
+        align-items: center;
     }
 }
